@@ -5,6 +5,8 @@ public class HelloWorld {
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(new OutputStreamWriter(System.out));
         out.println("Hello World");
+        int a=Integer.parseInt(in.readLine());
+        out.println(a);
         out.close();
     }
 }
